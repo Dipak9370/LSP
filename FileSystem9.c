@@ -10,6 +10,8 @@ int main(int argc, char *argv[])
 	int fd =0;
 	int Mode = 0;
 
+	printf("Usage : Name_Of_Executable Name_Of_File Mode_Of_Open\n");
+
 	if(argc != 3)
 	{
 		printf("Invalid number of arguments\n");
