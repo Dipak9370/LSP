@@ -1,3 +1,4 @@
+// Create file 
 
 #include<stdio.h>
 #include<fcntl.h>
@@ -7,7 +8,7 @@ int main(int argc, char *argv[])
     int fd = 0;
 
     printf("Usage : Name_Of_Executable Name_Of_File\n");
-
+    
     if(argc != 2)
     {
         printf("Invalid number of arguments\n");
@@ -26,5 +27,4 @@ int main(int argc, char *argv[])
     }
 
     return 0;
-
 }
